@@ -1,13 +1,17 @@
-# Sample Hardhat Project
+# Metamask Login Page
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+In this project, we have created a simple login page using metamask signing function using jwt authentication. This code implements the frontend in vanilla JS and backend in Express JS. 
 
-Try running some of the following tasks:
+To run the code, you need to run the following commands. 
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+npm install
 ```
+
+Then start the backend server by using the following command 
+
+```shell
+node index.js
+```
+
+and go to http://localhost:3000, connect the Metamask and test the application.
